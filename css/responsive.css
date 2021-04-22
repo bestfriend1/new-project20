@@ -1,0 +1,176 @@
+/*responsive-area*/
+@media(max-width: 991px){
+	.header-area{
+		position: static;
+	}
+	.header-bottom-area{
+		background: #fff;
+		padding-right: 10px;
+	}
+	#logo1{
+		display: none;
+	}
+	#logo2{
+		display: block;
+	}
+	.banner-area1,.banner-area2{
+		height: 80vh;
+	}
+}
+@media(max-width: 756px){
+	.banner-area1,.banner-area2{
+		height: 50vh;
+	}
+	.banner-element{
+		padding: 0px;
+	}
+	.banner-element h1{
+		font-size: 27px;
+		line-height: 30px;
+		margin-bottom: 3vh;
+	}
+	.banner-element h2{
+		font-size: 18px;
+		margin-bottom: 3vh;
+	}
+}
+@media(min-width: 992px) and (max-width: 1086px){
+	.section-1{
+		margin-bottom: 35vh;
+	}
+
+}
+
+@media(max-width: 991px){
+	.section1-element{
+		position: static;
+	}
+	.section1-details:hover{
+		transform: translateY(0);
+	}
+	.section1-position{
+		width: 100%;
+	}
+	.section-1{
+		margin-bottom: 6vh;
+	}
+
+}
+@media(max-width:576px){
+	.section2-title h1,.section3-title h1{
+		font-size: 30px;
+	}
+}
+@media(max-width:756px){
+	.section5-left{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width:576px){
+	.section5-form form button{
+		position: static;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+}
+/*section-7*/
+@media(max-width:991px){
+	.singup{
+		padding: 0px 5px;
+	}
+	.section7-singup{
+		padding: 30px 25px 15px;
+	}
+}
+@media(min-width: 480px) and (max-width:756px){
+	.section7-singup{
+		padding: 67px 57px 20px;
+	}
+	.section7-date-details{
+		margin-bottom: 6vh;
+	}
+	.singup{
+		padding: 0px 34px;
+	}
+}
+@media(min-width:756px) and (max-width:850px){
+	.time span{
+		font-size: 25px;
+	}
+	.time-info{
+		width: 60px;
+	}
+	.time{
+		width: 100%;
+		height: 60px;
+	}
+	.doted{
+		width: 15px;
+	}
+	.doted::after{
+		width: 5px;
+		height: 5px;
+		top: 25%;
+		left: 5px;
+	}
+	.doted::before{
+		width: 5px;
+		height: 5px;
+		top: 35%;
+		left: 5px;
+
+	}
+	.time-info h3{
+		font-size: 12px;
+	}
+}
+@media (max-width:550px){
+	.section7-main{
+		padding-left: 20px;
+		padding-right:20px;
+	}
+	.time span{
+		font-size: 25px;
+	}
+	.time-info{
+		width: 50px;
+	}
+	.time{
+		width: 100%;
+		height: 60px;
+	}
+	.doted{
+		width: 15px;
+	}
+	.doted::after{
+		width: 5px;
+		height: 5px;
+		top: 25%;
+		left: 5px;
+	}
+	.doted::before{
+		width: 5px;
+		height: 5px;
+		top: 35%;
+		left: 5px;
+
+	}
+	.time-info h3{
+		font-size: 11px;
+	}
+	.section7-title h1{
+		font-size: 25px;
+	}
+	.section7-title h2{
+		font-size: 17px;
+	}
+	.section7-title{
+		margin-bottom: 3vh;
+	}
+}
+@media(min-width: 991px){
+	.toggle-menu{
+		display: none!important;
+	}
+}
